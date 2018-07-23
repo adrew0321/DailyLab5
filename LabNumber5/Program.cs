@@ -7,8 +7,8 @@ namespace LabNumber5
         static void Main(string[] args)
         {
             //Task: Calculate the factorial of a number
-            Console.WriteLine($"Welcome to the Factorial Calculator!");
-            Console.ReadLine();
+
+            Console.WriteLine($"Welcome to the Factorial Calculator!\n");
 
             long userNumber = 0;
 
@@ -20,7 +20,8 @@ namespace LabNumber5
                 while (repeat2)
                 {
                     //**INPUT***
-                    Console.Write($"Enter an integar that's greater than 0 but less than 20: ");
+                    Console.WriteLine($"Enter an integar that's greater than 0 but less than 20: ");
+
 
                     //***PROCESSSING***
                     try
@@ -70,7 +71,7 @@ namespace LabNumber5
                 bool continueResponse = true;
                 while (continueResponse)
                 {
-                    Console.Write($"Would you like to continue? ");
+                    Console.WriteLine($"Would you like to continue? (y/n)");
                     string userResponse = Console.ReadLine();
 
                     //Checks UserResponse 
